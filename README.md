@@ -2,7 +2,10 @@
 Dart-const/final properties function
 void main()
 {
-  const FOOO obj=const FOOO();}
+  const FOOO obj=const FOOO();
+    obj.printfunction();
+  
+  }
 class FOO
 {
   late final int c;
@@ -19,3 +22,8 @@ class FOOO//everything is const
   
 }
 
+ printfunction()
+{
+  print(a);
+  print(b);
+}
